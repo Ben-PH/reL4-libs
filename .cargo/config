@@ -1,2 +1,7 @@
 [build]
 target = "aarch64-unknown-linux-gnu"
+
+[env]
+
+# Max number of bootinfo untyped caps
+BOOT_INFO_UT_CAPS_MAX = 230
